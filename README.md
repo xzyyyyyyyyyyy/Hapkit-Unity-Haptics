@@ -45,6 +45,14 @@ Hapkit-Unity-Haptics/
 - .NET Framework 兼容性（用于 System.IO.Ports）
 - TextMeshPro（首次使用需导入 TMP Essential Resources）
 
+## 更新记录
+### 2026-01-20
+- 新增轨迹跟踪系统：参考轨迹 + 用户轨迹拖尾 + 误差统计
+- 参考轨迹支持直线与多种预设曲线
+- 运行时修改轨迹参数会自动刷新
+- 自动绑定样例场景生成的小球
+- 新增使用说明文档：unity_scripts/TrajectorySetup.md
+
 ## 硬件接线（I2C）
 1. 三块板的 GND 互联
 2. 三块板的 A4/A5 互联（I2C）
